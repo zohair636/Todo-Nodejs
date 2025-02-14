@@ -7,4 +7,5 @@ export type LoginType = {
   placeholder: string;
   type: string;
   icon?: JSX.Element;
+  password_icon?: JSX.Element;
 };

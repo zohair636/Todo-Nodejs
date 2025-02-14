@@ -12,3 +12,13 @@ body {
   --color-custom-purple-800: #3e1671;
   --color-custom-purple-900: #15101c;
 }
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("./assets/fonts/Inter_28pt-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("./assets/fonts/Inter_28pt-Medium.ttf");
+}
