@@ -1,4 +1,4 @@
-import React from "react";
+import { SubmitLoader } from "../Loader";
 
 const AuthButton = ({
   label,
@@ -7,16 +7,14 @@ const AuthButton = ({
   onClick,
 }: {
   label: string;
-  isLoading: boolean;
+  isLoading?: boolean;
   className?: string;
-  onClick: () => void;
+  onClick?: () => void;
 }) => {
   return (
-    <div>
-      <button onClick={onClick} className={className}>
-        {isLoading ? "" : label}
-      </button>
-    </div>
+    <button onClick={onClick} className={className}>
+      {isLoading ? <SubmitLoader /> : label}
+    </button>
   );
 };
 

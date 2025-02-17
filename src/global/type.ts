@@ -9,3 +9,15 @@ export type LoginType = {
   icon?: JSX.Element;
   password_icon?: JSX.Element;
 };
+
+export type RegisterData = {
+  fullName: string;
+  email: string;
+  password: string;
+  confirmPassword: string;
+};
+
+export type LoginData = {
+  email: string;
+  password: string;
+};
